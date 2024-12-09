@@ -1,5 +1,5 @@
 import Modal from "@/components/Modal";
-import VideoDetailsModal from "@/components/videoDetailsModal";
+import VideoDetailsModal from "../../../../components/VideoDetailsModal";
 
 function VidoeModal({ params }) {
   const { id, lang } = params;
