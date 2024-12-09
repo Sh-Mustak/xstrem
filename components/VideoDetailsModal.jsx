@@ -5,9 +5,6 @@ import Image from "next/image";
 
 async function VideoDetailsModal({ id, lang }) {
   const data = videoData.find((data) => data.videoId === id);
-  console.log("====================================");
-  console.log(data);
-  console.log("====================================");
   const dictionary = await getDictionary(lang);
   const { live, subscribe, donate, youMayLike } = dictionary.videoDetails;
 
