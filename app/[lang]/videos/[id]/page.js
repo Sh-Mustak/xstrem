@@ -1,4 +1,4 @@
-import VideoDetailsModal from "@/components/VideoDetailsModal";
+import VideoDetailsModal from "../../../../components/VideoDetailsModal";
 function VideoDetailsPage({ params: {id, lang} }) {
   return (
     <div>
