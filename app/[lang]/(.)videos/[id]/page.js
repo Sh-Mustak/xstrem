@@ -2,11 +2,11 @@ import Modal from "@/components/Modal";
 import VideoDetailsModal from "@/components/videoDetailsModal";
 
 function VidoeModal({ params }) {
-  const { id } = params;
+  const { id, lang } = params;
   return (
     <div>
       <Modal>
-        <VideoDetailsModal id={id} />
+        <VideoDetailsModal id={id} lang={lang} />
       </Modal>
     </div>
   );

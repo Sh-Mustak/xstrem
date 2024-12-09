@@ -1,8 +1,8 @@
 {
-    "views": "ভিউস",
-    "share": "শেয়ার",
-    "uploadedOn": "আপলোড তারিখ",
-    "save": "সংরক্ষণ",
-    "followers": "অনুসারী",
-    "follow": "অনুসরণ করুন"
+  "videoDetails": {
+    "live": "সরাসরি",
+    "subscribe": "সাবস্ক্রাইব করুন",
+    "donate": "দান করুন",
+    "youMayLike": "আপনি হয়তো পছন্দ করবেন"
   }
+}

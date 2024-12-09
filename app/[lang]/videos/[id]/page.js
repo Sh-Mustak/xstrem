@@ -1,13 +1,13 @@
-import VideoDetails from "@/components/VideoDetails";
+import VideoDetailsModal from "@/components/VideoDetailsModal";
 
 
 
-function VideoDetailsPage({ params }) {
-  const { id } = params;
+function VideoDetailsPage({ params: {id, lang} }) {
+
   
   return (
     <div>
-      <VideoDetails id={id}/>
+      <VideoDetailsModal id={id} lang={lang}/>
     </div>
   );
 }
